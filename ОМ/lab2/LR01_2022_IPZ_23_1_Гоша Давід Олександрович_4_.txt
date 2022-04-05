@@ -1,0 +1,60 @@
+Dx = [0.001  0.01   0.1   1]; 
+x = 100; 
+
+dx1 = Dx(1); 
+dx2 = Dx(2); 
+dx3 = Dx(3); 
+dx4 = Dx(4); 
+ 
+f1 = @(x) (x-18).*(x+17).*(x+1).*(x-18) 
+ 
+f2 = @(x) x.^4 - 22*x.^3-167*x.^2+4068*x +4212
+f2_diff = x.^4 - 22*x.^3-167*x.^2+4068*x +4212
+y1 = f1(x); 
+ 
+y2 = f2(x); 
+
+
+ 
+ 
+deltaX1 = x + dx1; 
+deltaX2 = x + dx2; 
+deltaX3 = x + dx3; 
+deltaX4 = x + dx4; 
+ 
+absolute1 = f2(x + deltaX1) - f2(x) 
+
+absolute2 = f2(x + deltaX2) - f2(x)
+ 
+absolute3 = f2(x + deltaX3) - f2(x) 
+
+absolute4 = f2(x + deltaX4) - f2(x) 
+ 
+
+relative111 = absolute1 ./ f2(x) 
+
+relative2 = absolute2 ./ f2(x) 
+
+relative3 = absolute3 ./ f2(x) 
+
+relative4 = absolute4 ./ f2(x) 
+
+deltaY1 = 4*dx1.^3-66*dx1.^2-334*dx1+4068 .* deltaX1 
+deltaY2 = 4*dx2.^3-66*dx2.^2-334*dx2+4068 .* deltaX2 
+deltaY3 = 4*dx3.^3-66*dx3.^2-334*dx3+4068 .* deltaX3 
+deltaY4 = 4*dx4.^3-66*dx4.^2-334*dx4+4068 .* deltaX4 
+ 
+relative1_1 = deltaY1 ./ f2(x) 
+
+relative2_2 = deltaY2 ./ f2(x) 
+
+relative3_3 = deltaY3 ./ f2(x) 
+
+relative4_4 = deltaY4 ./ f2(x) 
+ 
+format long 
+figure(1); 
+plot(x,deltaY1) 
+figure(2); 
+loglog(x,deltaY1) 
+grid on
