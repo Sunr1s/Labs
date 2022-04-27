@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<skipper version="3.2.36.1775" mvc="Without MVC" orm="MongoDbOdm" name="BD9" uuid="101ea62b-153b-46dc-ad73-46c4bc33d5ba">
+  <module name="\FilmStoreLab8" local-name="FilmStoreLab8" namespace="\" export-format="MongoDbOdmYml" export-path="." uuid="88e8a348-95e0-4628-acf5-ce1fdf9b95e7">
+    <entity name="\Films" local-name="Films" namespace="\" uuid="48ecd134-cf85-4a18-abee-2533b65df557">
+      <field name="films_id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="84840d07-f12e-4227-83d9-c0ec9884d95f"/>
+      <field name="shipment_date" type="date" size="255" required="true" uuid="a7525b13-502c-430d-961a-fe5c847d91bf"/>
+      <field name="film_name" type="string" required="true" uuid="2340efe0-caa4-4d65-b3b2-025485ad839d"/>
+      <field name="country_creator" type="string" required="true" uuid="9b529d74-4307-4117-af23-cf552ab2b515"/>
+      <field name="actors" type="collection" required="true" uuid="80a7f830-1202-4e3d-b251-5ea5264f2bae"/>
+      <field name="film_studio" type="object_id" required="true" uuid="8cbae916-cf9b-4ef4-a7c5-42ae1996dc99"/>
+    </entity>
+    <entity name="\TranslateStudio" local-name="TranslateStudio" namespace="\" uuid="465c094d-1d86-420a-b914-5859c637f1f4">
+      <field name="id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="8d4a351c-02e5-4fe4-90e6-3ad08da0ecc0"/>
+      <field name="studio_name" type="string" required="true" uuid="ba688030-b370-4ee3-9bf0-a7fad35e3aab"/>
+      <field name="type_of_voises" type="string" required="true" uuid="d4cb9142-8353-4038-840d-f0efb2d8cf15"/>
+      <field name="address" type="string" required="true" uuid="77684026-8d5b-4afe-8674-659091936e7c"/>
+      <field name="workers_counter" type="int" required="true" uuid="c7a3a94a-f479-41b6-97be-9b9a951f5f6c"/>
+    </entity>
+    <entity name="\FilmStudio" local-name="FilmStudio" namespace="\" uuid="0a994dd6-eee8-42bd-8358-9dff226200b6">
+      <field name="id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="f0ca1d8d-2b53-468f-8382-605b6a3bfabe"/>
+      <field name="country" type="string" required="true" uuid="8113d231-1cce-4c7a-842e-f58fda99e6f1"/>
+      <field name="name" type="string" required="true" uuid="f6dd8c6a-2822-4f5f-ace8-7cfd20a0698d"/>
+      <field name="legal_addres" type="string" required="true" uuid="1b690541-600d-432d-8fc7-3c83d563916c"/>
+      <field name="actors" type="collection" required="true" uuid="384965f8-0334-43f7-9d92-5929eadae7f9"/>
+    </entity>
+    <association from="\FilmStudio" to="\Films" caption="Films FilmStudios" owner-alias="filmStudios" inverse-alias="films" many-owner="false" many-inverse="false" parent-required="true" uuid="cb1e85c6-5e84-4de3-a855-678c5b450988"/>
+    <entity name="\Customer" local-name="Customer" namespace="\" uuid="f5b17b61-f1d6-448e-8644-7f1105243615">
+      <field name="id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="413a6bf3-df07-45a8-88cf-6d2880afc7c4"/>
+      <field name="name" type="string" required="true" uuid="a6940ee2-0c47-4a62-b05b-1215c0c3f0b9"/>
+      <field name="phone" type="string" required="true" uuid="e081fd87-073b-4727-a7df-fec0a4aceb6c"/>
+      <field name="pass" type="hash" required="true" uuid="d1af2b13-209c-4d03-849b-946db4b27ee5"/>
+      <field name="country" type="string" required="true" uuid="2aaf0a27-9b26-4e5e-aa6d-6fd29f0e7eb6"/>
+    </entity>
+    <association from="\Customer" to="\Films" caption="Films Customers" owner-alias="customers" inverse-alias="films" many-owner="true" many-inverse="false" parent-required="true" uuid="0523cf8d-f886-4e27-a96d-f40c69de717e"/>
+    <entity name="\Orders" local-name="Orders" namespace="\" uuid="985c9866-9881-458e-a8a7-a7e2632c0333">
+      <field name="orders_id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="2d7eb60f-c43b-4b90-b85d-8e4df4b35862"/>
+      <field name="film_id" type="custom_id" required="true" uuid="6b6087ed-ae7c-41d1-bc98-d66d8d961c42"/>
+      <field name="customer_id" type="custom_id" required="true" uuid="2e3bfe34-887f-46ce-829c-207217bb5925"/>
+      <field name="oreder_date" type="date" required="true" uuid="d10ea26c-5064-454c-9c99-82b095496176"/>
+      <field name="end_date" type="date" required="true" uuid="b11360b2-b480-436d-8e5b-ce2750938514"/>
+      <field name="type_of_sub" type="increment" required="true" uuid="cdc4be29-380c-4c1e-9e29-c40e73517268"/>
+    </entity>
+    <association from="\Orders" to="\Films" caption="Films Orders" owner-alias="orders" inverse-alias="films" many-owner="false" many-inverse="false" parent-required="true" uuid="04690935-9ddb-43dc-bf93-7c537348e0a4"/>
+    <many-to-many mn-entity="\Orders" caption="Shipments to Customer" uuid="cc5e3ca7-9ca7-4bb9-a631-95b4f4087cfe">
+      <many-to-many-entity name="\Customer" owning-side="true" alias="customers" uuid="919ee014-4524-4213-b50f-94c0d2620b43"/>
+      <many-to-many-entity name="\Shipments" owning-side="false" alias="shipments" uuid="176597ab-5425-4bbc-b208-cae51cc72149"/>
+    </many-to-many>
+    <entity name="\Workers" local-name="Workers" namespace="\" uuid="4ffe1748-2135-4ffa-b4fe-f241654b6df8">
+      <field name="worker_id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="fc6ccb04-2331-4636-8bfc-e10d19e04e39"/>
+      <field name="transl_id" type="custom_id" required="true" uuid="c35c55e7-ccd8-43a0-b19d-9771cef1a004"/>
+      <field name="salary" type="string" required="true" uuid="bfca4b81-9418-4c48-9351-fb6696545ecb"/>
+      <field name="hours_per_week" type="int" required="true" uuid="78300c0f-3ea9-47b0-865c-5f5458e26450"/>
+      <field name="gender" type="bin" required="true" uuid="0dbe26b3-d005-4ac0-a403-555f94c949dd"/>
+    </entity>
+    <entity name="\Shipments" local-name="Shipments" namespace="\" uuid="455b2f27-dd5a-4ff2-a485-ebe778996a99">
+      <field name="shipment_id" type="object_id" required="true" unique="true" primary="true" auto-increment="true" uuid="f041b98c-52e4-4e09-a5bf-a8365a5cbc66"/>
+      <field name="order_id" type="custom_id" required="true" uuid="8fbcecc1-ef08-40a5-aa0c-0d47836a6364"/>
+      <field name="customer_id" type="custom_id" required="true" uuid="4d29a60f-23c0-4803-8f34-2fb3526c41f6"/>
+      <field name="type_of_payment" type="string" uuid="66b60658-3c8a-4606-9f70-d1a471d2fbae"/>
+      <field name="sum" type="string" required="true" uuid="314b5406-16b9-43bb-9f45-816b3ae5ac70"/>
+    </entity>
+    <entity name="\WorkersInStusio" local-name="WorkersInStusio" namespace="\" uuid="80610566-2c4f-4e38-be40-9d87a3fe85d0"/>
+    <many-to-many mn-entity="\WorkersInStusio" caption="Workers to TranslateStudio" uuid="d1c9354f-262c-47d9-baf2-241c0df0a8f4">
+      <many-to-many-entity name="\TranslateStudio" owning-side="true" alias="translateStudios" uuid="27f67796-5cf0-4553-a60b-ad53c786b557"/>
+      <many-to-many-entity name="\Workers" owning-side="false" alias="workers" uuid="811ce705-8f77-44d6-875b-c1e2c23e15fe"/>
+    </many-to-many>
+    <entity name="\FilmsinStudio" local-name="FilmsinStudio" namespace="\" uuid="a934437a-b748-4fec-9e5c-94ec0d3c80fd"/>
+    <many-to-many mn-entity="\FilmsinStudio" caption="Films to TranslateStudio" uuid="50527b18-869d-404d-b71e-ecbc8cd9abf6">
+      <many-to-many-entity name="\TranslateStudio" owning-side="true" alias="translateStudios" uuid="d82542f1-9fcf-4ffa-aa28-5d3a4c3f5cec"/>
+      <many-to-many-entity name="\Films" owning-side="false" alias="films" uuid="9dea1c28-c5b3-40a6-b307-1ffd1d4aee54"/>
+    </many-to-many>
+  </module>
+  <visual-data>
+    <association uuid="04690935-9ddb-43dc-bf93-7c537348e0a4" color="#969696"/>
+    <association uuid="0523cf8d-f886-4e27-a96d-f40c69de717e" caption1-position-x="0" caption1-position-y="0" center-position-x="-12" center-position-y="0" color="#969696"/>
+    <association uuid="cb1e85c6-5e84-4de3-a855-678c5b450988" caption1-position-x="0" caption1-position-y="0" center-position-x="0" center-position-y="0" color="#969696"/>
+    <entity uuid="0a994dd6-eee8-42bd-8358-9dff226200b6" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="-111" position-y="198" size-x="0" size-x2="106" size-y="0" size-y2="87"/>
+    <entity uuid="455b2f27-dd5a-4ff2-a485-ebe778996a99" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="442" position-y="207" size-x="0" size-x2="123" size-y="0" size-y2="87"/>
+    <entity uuid="465c094d-1d86-420a-b914-5859c637f1f4" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="40" position-y="291" size-x="0" size-x2="114" size-y="0" size-y2="87"/>
+    <entity uuid="48ecd134-cf85-4a18-abee-2533b65df557" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="2" position-y="0" size-x="0" size-x2="130" size-y="0" size-y2="101"/>
+    <entity uuid="4ffe1748-2135-4ffa-b4fe-f241654b6df8" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="251" position-y="307" size-x="0" size-x2="108" size-y="0" size-y2="87"/>
+    <entity uuid="80610566-2c4f-4e38-be40-9d87a3fe85d0" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="232" position-y="199" size-x="0" size-x2="142" size-y="0" size-y2="31"/>
+    <entity uuid="985c9866-9881-458e-a8a7-a7e2632c0333" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="437" position-y="-7" size-x="0" size-x2="128" size-y="0" size-y2="116"/>
+    <entity uuid="a934437a-b748-4fec-9e5c-94ec0d3c80fd" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="7" position-y="152" size-x="0" size-x2="131" size-y="0" size-y2="31"/>
+    <entity uuid="f5b17b61-f1d6-448e-8644-7f1105243615" bg-color="#FFFFFF" hdr-color="#D2D2D2" position-x="246" position-y="84" size-x="0" size-x2="84" size-y="0" size-y2="87"/>
+    <many-to-many-association uuid="50527b18-869d-404d-b71e-ecbc8cd9abf6" color="#969696"/>
+    <many-to-many-association uuid="cc5e3ca7-9ca7-4bb9-a631-95b4f4087cfe" color="#969696"/>
+    <many-to-many-association uuid="d1c9354f-262c-47d9-baf2-241c0df0a8f4" color="#969696"/>
+    <many-to-many-association-entity uuid="27f67796-5cf0-4553-a60b-ad53c786b557" caption1-position-x="0" caption1-position-y="0" center-position-x="0" center-position-y="0"/>
+    <many-to-many-association-entity uuid="811ce705-8f77-44d6-875b-c1e2c23e15fe" caption1-position-x="0" caption1-position-y="0" center-position-x="0" center-position-y="2"/>
+    <many-to-many-association-entity uuid="9dea1c28-c5b3-40a6-b307-1ffd1d4aee54" caption1-position-x="0" caption1-position-y="0" center-position-x="0" center-position-y="0"/>
+    <module uuid="88e8a348-95e0-4628-acf5-ce1fdf9b95e7" bg-color="#FDEBEF" position-x="61" position-y="72" size-x="153" size-x2="784" size-y="41" size-y2="435"/>
+    <project uuid="101ea62b-153b-46dc-ad73-46c4bc33d5ba" size-x="142" size-x2="895" size-y="19" size-y2="557"/>
+  </visual-data>
+</skipper>
