@@ -1,81 +1,32 @@
-%   ОМ ЛР No 05  13.04.2022   ІПЗ-23_1 Гоша Давід Олександрович ( 4 )
-%   Завдання 1. -------------------------
-%   ЛР05. Дано:  
-%   діапаз.пошуку [ 0  490 ], похибка= 2e-07
-%   V0 V1 a1 a2 a3 a4 
-%   1000    72   300   100   150   0.752
-%   TperSL Ts1 Ts2 Ts3 TperExp 
-%   37.433  122.221  140.712  278.267  87.043
-%   Завдання 2. -------------------------
-%   ЛР05. Дано:  
-%   діапаз.пошуку [ 0  490 ], похибка= 2e-07
-%   V0 V1 a1 a2 a3 a4 
-%   1000    72   300   100   150   0.752
-%   TperSL Ts1 Ts2 Ts3 TperExp 
-%   37.433  122.221  140.712  278.267  87.043
 
+X  = [ 350   630   996  1121  1251  1663  1998  2386];
+Y  = [18  21  15   7   8  15  17  14];
+XW  = [1803   583  1045  1058];
 
-clc
-clear all
+dX = (X(end)-X(1))/100;
+XW100 = X(1) : dX : X(end);
+YW = interp1(X,Y,XW100, 'nearest');
+YW2_2 = interp1(X,Y,XW100, 'linear');
 
-V0 = 1000;
-V1 = 72;
-V = V0-V1;
-a1 = 300;
-a2 = 100;
-a3 = 150;
-a4 = 0.752;
-TperSL = 37.433;
-Ts1 = 122.221;
-Ts2 = 140.712;
-Ts3 = 278.267;
-TperExp = 87.043;
-t = 0:490;
-y11 = @(t) a1*(1+tanh((t-Ts1)/TperSL));
-y13 = @(t) a3*(1+tanh((t-Ts3)/TperSL));
-y2 = @(t) exp(t/TperExp);
-y3 = @(t) a4*t;
-y12 = @(t) a2*(1+tanh((t-Ts2)/TperSL));
-V2 =  @(t) -(a1*(1+tanh((t-Ts1)/TperSL))-a2*(1+tanh((t-Ts2)/TperSL))+a3*(1+tanh((t-Ts3)/TperSL))+exp(t/TperExp)+a4*t-V);
-plot(t,y11(t),t,y13(t),t,y2(t),t,y3(t),t,y12(t),t,V2(t));
-legend('y11','y13','y2','y3','y12','V2');
-eps = 2e-07;
-t1 = 0;
-t2 = 490;
-i = 0;
-tic
-while abs(t1 - t2) > eps
-   t3 = (t1 + t2) / 2; 
-   if ((V2(t3) * V2(t1)) < 0) 
-       t2 = t3; 
-   else
-       t1 = t3;
-   end
-   i = i + 1;
-end
-time1 = toc;
-time1
-disp("t* = "+t3);
-disp("amount of iterations = "+i);
-X1 = 0;
-X2 = 490;
-Y1 = V2(X1);
-Y2 = V2(X2);
-flag = 0;
-i2 = 0;
-tic
-while flag == 0
-    a2 = (V2(X2) - Y1)/(X2-X1);
-    b2 = V2(X2) - a2*X2;
-    X3 = -b2/a2;
-    if abs(X3 - X2) < eps
-        flag = 1;
-    end
-    X2 = X3;
-    Y2 = V2(X3);
-    i2 = i2 + 1;
-end
-time2 = toc;
-time2
-disp("t* by method hord = "+X3);
-disp("amount of iterations by method hord = "+i2);
+plot(XW100, YW, 'b');
+hold("on");
+
+y1 = interp1(X,Y,XW,'nearest');
+plot(XW,y1, 'bo');
+plot(XW100, YW2_2, 'g');
+
+y2 = interp1(X,Y,XW,'linear');
+plot(XW,y2, 'go');
+
+c = spline(X,Y,XW100);
+plot(XW100, c, 'r');
+y3 = interp1(X,Y,XW,'spline');
+plot(XW, y3, 'ro');
+legend('nearest','nearest control points','linear','linear control points','spline','spline control points');
+hold("off");
+SumY1 = sum(y1);
+display("Sum of honey by nearest method: "+ SumY1);
+SumY2 = sum(y2);
+display("Sum of honey by linear method: "+ SumY2);
+SumY3 = sum(y3);
+display("Sum of honey by spline method: "+ SumY3);
