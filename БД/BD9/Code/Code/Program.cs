@@ -8,6 +8,7 @@ using MongoDB.Driver;
 using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Bson.Serialization;
+using System.Security.Authentication;
 
 namespace BD9
 {
@@ -30,9 +31,15 @@ namespace BD9
 
         static void Main(string[] args)
         {
-            string connectionString = "mongodb://localhost:27017";
+            string connectionString =
+   @"mongodb://david1337:FOcY9lgX4mHEujcZj985Y8fQWQGq8TW7vk5Hbj2usb4U5dF9KRjCsVjjiebLvrZbiE3FLblvlJnvTG25qsjISQ==@david1337.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@david1337@";
+            MongoClientSettings settings = MongoClientSettings.FromUrl(
+              new MongoUrl(connectionString)
+            );
 
-            MongoClient client = new MongoClient(connectionString);
+            settings.SslSettings =
+              new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
+            var client = new MongoClient(settings);
             Console.WriteLine("");
             Console.WriteLine("Отримання всiх бд iз сервера");
             Console.WriteLine("");

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yLr3j5mbvvYFrYhOReGii0F1iusc8MTzH43KFYorSM9FdkhstBmRIHcCnEptGpvOZVQSL3MatcE+jT6/n+H0DQ==",
+  "dgSpecHash": "UJY0ESIONkoOZNkIrzeCzNu0S/1E1N0rM4kOfTM8eizOu2W3qrBonAhHUMHconulACF+t7ofKY7jV6mD0PuPRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\BD10\\BD10\\BD10.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\Labs\\БД\\BD10\\Code\\BD10\\BD10\\BD10.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

@@ -630,11 +630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\BD10\\BD10\\BD10.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Labs\\БД\\BD10\\Code\\BD10\\BD10\\BD10.csproj",
       "projectName": "BD10",
-      "projectPath": "C:\\Users\\admin\\Desktop\\BD10\\BD10\\BD10.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\Labs\\БД\\BD10\\Code\\BD10\\BD10\\BD10.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\BD10\\BD10\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\Labs\\БД\\BD10\\Code\\BD10\\BD10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
