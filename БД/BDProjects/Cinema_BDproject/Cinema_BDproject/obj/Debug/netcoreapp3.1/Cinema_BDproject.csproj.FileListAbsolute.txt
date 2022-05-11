@@ -1,94 +1,187 @@
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.exe
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.deps.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.runtimeconfig.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.runtimeconfig.dev.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.pdb
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.Views.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Cinema_BDproject.Views.pdb
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.csproj.AssemblyReference.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.AssemblyInfoInputs.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.AssemblyInfo.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.csproj.CoreCompileInputs.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.RazorAssemblyInfo.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.RazorAssemblyInfo.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\staticwebassets\Cinema_BDproject.StaticWebAssets.Manifest.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.TagHelpers.input.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.TagHelpers.output.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.RazorCoreGenerate.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.RazorTargetAssemblyInfo.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.RazorTargetAssemblyInfo.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.Views.pdb
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.pdb
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.genruntimeconfig.cache
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Cinema_BDproject.csproj.CopyComplete
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\BodyPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CssPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\FooterPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\HeaderPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MetaTagsPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Contacts\Index.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Index.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\appsettings.production.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\appsettings.staging.json
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\DnsClient.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\SharpCompress.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\linux\native\libsnappy64.so
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\linux\native\libzstd.so
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\osx\native\libsnappy64.dylib
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\osx\native\libzstd.dylib
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\AspNetCore.Identity.MongoDbCore.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\bin\Debug\netcoreapp3.1\MongoDbGenericRepository.dll
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Operations\Create.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Views\Operations\CreateRole.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
-C:\Users\admin\Desktop\Cinema_BDproject\Cinema_BDproject\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.exe
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.deps.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.runtimeconfig.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.runtimeconfig.dev.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.pdb
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.Views.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.Views.pdb
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.csproj.AssemblyReference.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.AssemblyInfoInputs.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.AssemblyInfo.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.csproj.CoreCompileInputs.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorAssemblyInfo.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorAssemblyInfo.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/staticwebassets/Cinema_BDproject.StaticWebAssets.Manifest.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.TagHelpers.input.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.TagHelpers.output.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorCoreGenerate.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorTargetAssemblyInfo.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorTargetAssemblyInfo.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.Views.pdb
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.pdb
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.genruntimeconfig.cache
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.csproj.CopyComplete
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BodyPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/CssPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/FooterPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/HeaderPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/MetaTagsPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ScriptsPartial.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/About/Index.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Contacts/Index.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Genre/Index.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.production.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.staging.json
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/DnsClient.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Win32.Registry.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Libmongocrypt.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/SharpCompress.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Security.AccessControl.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Security.Principal.Windows.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libsnappy64.so
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libzstd.so
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libsnappy64.dylib
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libzstd.dylib
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libmongocrypt.so
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libmongocrypt.dylib
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/mongocrypt.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/AspNetCore.Identity.MongoDbCore.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDbGenericRepository.dll
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Operations/Create.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Operations/CreateRole.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Home/Index.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewImports.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewStart.cshtml.g.cs
+C:/Users/admin/Desktop/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/TextFields/Edit.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.production.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/appsettings.staging.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.deps.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.runtimeconfig.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.runtimeconfig.dev.json
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.pdb
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.Views.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Cinema_BDproject.Views.pdb
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/AspNetCore.Identity.MongoDbCore.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/DnsClient.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/Microsoft.Win32.Registry.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDB.Libmongocrypt.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/MongoDbGenericRepository.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/SharpCompress.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Security.AccessControl.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/System.Security.Principal.Windows.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libsnappy64.so
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libzstd.so
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libsnappy64.dylib
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libzstd.dylib
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/linux/native/libmongocrypt.so
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/osx/native/libmongocrypt.dylib
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/native/mongocrypt.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.csprojAssemblyReference.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.MvcApplicationPartsAssemblyInfo.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorAssemblyInfo.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorAssemblyInfo.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.AssemblyInfoInputs.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.AssemblyInfo.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.TagHelpers.input.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.TagHelpers.output.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorCoreGenerate.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/Home/Index.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/TextFields/Edit.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewImports.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Areas/Admin/Views/_ViewStart.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/About/Index.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Contacts/Index.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Genre/Index.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Operations/Create.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Operations/CreateRole.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BodyPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/CssPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/FooterPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/HeaderPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/MetaTagsPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ScriptsPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorTargetAssemblyInfo.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.RazorTargetAssemblyInfo.cs
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.Views.pdb
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.csproj.CopyComplete
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/staticwebassets/Cinema_BDproject.StaticWebAssets.Manifest.cache
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/staticwebassets/Cinema_BDproject.StaticWebAssets.xml
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.dll
+/home/admin/Рабочий стол/Labs/БД/BDProjects/Cinema_BDproject/Cinema_BDproject/obj/Debug/netcoreapp3.1/Cinema_BDproject.pdb
