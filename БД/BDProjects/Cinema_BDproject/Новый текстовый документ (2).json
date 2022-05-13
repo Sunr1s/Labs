@@ -1,0 +1,23 @@
+db.TextFields.insertMany([
+     {
+	  "id":"A2A1DC3F426816678318848D",
+	  "Title":"Контакты",
+	  "Text":"Some text",
+	  "CodeWord":"PageContacts",
+	  "DateAdded":new Date()
+	  },
+	  {
+	  "id":"8F25FCA84D80D22EDC7A7095",
+	  "Title":"Главная",
+	  "Text":"Some text",
+	  "CodeWord":"PageIndex",
+	  "DateAdded":new Date()
+  },
+  {
+  "id":"878F27D58912F081AE2577B8",
+  "Title":"Наши фильмы",
+  "Text":"Some text",
+  "CodeWord":"PageServices",
+  "DateAdded":new Date()
+  }
+  ])

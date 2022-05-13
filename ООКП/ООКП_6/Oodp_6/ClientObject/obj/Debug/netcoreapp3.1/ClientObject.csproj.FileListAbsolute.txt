@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.exe
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.deps.json
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.runtimeconfig.json
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.dll
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\ClientObject.pdb
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.AssemblyInfo.cs
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.dll
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.pdb
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.genruntimeconfig.cache
+C:\Users\admin\Desktop\Oodp_6\ClientObject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Oodp_6\ClientObject\obj\Debug\netcoreapp3.1\ClientObject.csproj.CopyComplete

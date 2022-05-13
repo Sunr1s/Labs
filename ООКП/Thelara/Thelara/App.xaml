@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="Thelara.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Thelara"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Themes/ContactCard.xaml" />
+                <ResourceDictionary Source="./Themes/ChatItem.xaml" />
+                <ResourceDictionary Source="./Themes/MessageBox.xaml" />
+                <ResourceDictionary Source="./Themes/UserBox.xaml" />
+                <ResourceDictionary Source="./Themes/KeyBox.xaml" />
+                <ResourceDictionary Source="./Themes/StylishScrollbar.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
