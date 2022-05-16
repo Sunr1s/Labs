@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Areas",
+    "\\Areas\\Admin",
+    "\\Areas\\Admin\\Controllers",
+    "\\Areas\\Admin\\Views",
+    "\\Areas\\Admin\\Views\\Home",
+    "\\Areas\\Admin\\Views\\TextFields",
+    "\\Domain",
+    "\\Domain\\Repositories",
+    "\\Domain\\Repositories\\MongoFramework"
+  ],
+  "SelectedNode": "\\Domain\\Repositories\\MongoFramework\\TextFieldRepos.cs",
+  "PreviewInSolutionExplorer": false
+}

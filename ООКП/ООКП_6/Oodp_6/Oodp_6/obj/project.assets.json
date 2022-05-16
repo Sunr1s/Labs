@@ -3055,11 +3055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
       "projectName": "Oodp_6",
-      "projectPath": "C:\\Users\\admin\\Desktop\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\Oodp_6\\Oodp_6\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\Oodp_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

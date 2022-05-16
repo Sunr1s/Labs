@@ -37,6 +37,7 @@ namespace Oodp_6
             try
             {
                 Dictionary<string, double> Students = new Dictionary<string, double>();
+
                 Stream = client.GetStream();
                 // получаем имя пользователя
                 string message = GetMessage();

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Oodp_6\\ClientObject\\ClientObject.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\ClientObject\\ClientObject.csproj",
       "projectName": "ClientObject",
-      "projectPath": "C:\\Users\\admin\\Desktop\\Oodp_6\\ClientObject\\ClientObject.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\ClientObject\\ClientObject.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\Oodp_6\\ClientObject\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\ClientObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

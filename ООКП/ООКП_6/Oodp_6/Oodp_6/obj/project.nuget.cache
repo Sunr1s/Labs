@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PDymyl5N5K6UEBNSqAtMNtJSPvuBEzuvCI+hHbbOD8GZGWOIO1JX/JjeSqyEDpLye3lTZFtz60uIkD4NnFEgrg==",
+  "dgSpecHash": "P0Ib/8J5ybmSw5mgQ4ZaNYiV+EUOqJWqFRWJ4e4HmpuISjsYhlo1ePeM/0S8ubNhfBKTrImAfarKDhCIdBBvNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\Labs\\ООКП\\ООКП_6\\Oodp_6\\Oodp_6\\Oodp_6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\crossplatformmemorypinning\\1.0.2\\crossplatformmemorypinning.1.0.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\crossplatformprotecteddata\\1.0.3\\crossplatformprotecteddata.1.0.3.nupkg.sha512",

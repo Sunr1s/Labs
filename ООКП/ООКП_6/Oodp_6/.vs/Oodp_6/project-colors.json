@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "71268667-f56b-4417-b5d8-9e67eaca3f94": {
+      "ProjectGuid": "71268667-f56b-4417-b5d8-9e67eaca3f94",
+      "DisplayName": "ClientObject",
+      "ColorIndex": 0
+    },
+    "94116fc0-d1e7-4930-9451-2c6e59467cc3": {
+      "ProjectGuid": "94116fc0-d1e7-4930-9451-2c6e59467cc3",
+      "DisplayName": "Oodp_6",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
