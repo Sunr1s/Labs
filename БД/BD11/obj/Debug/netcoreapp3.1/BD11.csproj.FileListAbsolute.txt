@@ -1,0 +1,3 @@
+/home/admin/Рабочий стол/Labs/БД/BD11/obj/Debug/netcoreapp3.1/BD11.csprojAssemblyReference.cache
+/home/admin/Рабочий стол/Labs/БД/BD11/obj/Debug/netcoreapp3.1/BD11.AssemblyInfoInputs.cache
+/home/admin/Рабочий стол/Labs/БД/BD11/obj/Debug/netcoreapp3.1/BD11.AssemblyInfo.cs
