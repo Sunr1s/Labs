@@ -1,9 +1,0 @@
-{
-  "Project": {
-    "ConnectionString": "mongodb://localhost:27017",
-    "CompanyName": "Моя супер компания",
-    "CompanyPhone": "+38 (044) 44-44",
-    "CompanyPhoneShort": "+380444444444",
-    "CompanyEmail": "contact@mycompany.com"
-  }
-}
