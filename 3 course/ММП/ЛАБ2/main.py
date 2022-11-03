@@ -72,7 +72,7 @@ def new(x):
     # Title, Label, Ticks and Ylim
     ax.set_title('Bar Chart for Transaction Slow Blocks', fontdict={'size':22})
     ax.set(ylabel='Transaction per block', ylim=(0, 4000))
-    plt.xticks(df.index, df.median_time, rotation=60, horizontalalignment='right', fontsize=12)
+     #plt.xticks(df.index, df.median_time, rotation=60, horizontalalignment='right', fontsize=12)
 
     # Add patches to color the X axis labels
     p1 = patches.Rectangle((.57, -0.005), width=.33, height=.13, alpha=.1, facecolor='green', transform=fig.transFigure)
