@@ -21,15 +21,13 @@ class BC_Simulation:
         self.mining_rate = np.arange(0.001546, 0.001650)
         self.miners_count = 2000
 
-        self.numberoftotal_transactions = 275247
-
         self.block_size = 1024
         self.transaction_weight = 0.5
         self.mining_time = 600
 
     def add_mempool(self):
-        self.mempool_size += self.mining_time  *  np.random.poisson(self.transaction_arrivalrate)
-        print(int(self.mempool_size),np.random.poisson(self.transaction_arrivalrate)/10)
+        self.mempool_size += self.mining_time * np.random.uniform(low=0.01,high=1.8)  *  np.random.poisson(self.transaction_arrivalrate)
+        print(int(self.mempool_size),np.random.poisson(self.transaction_arrivalrate))
         return self.mempool_size
 
     def fork(self):
@@ -56,38 +54,7 @@ class BC_Simulation:
     
     def join(self):
         print("ok")
-
-
-
-
-
-s = BC_Simulation()
-s.__init__()
-i = 0
-txs,index,time,tx_persec,mempool, unconfirmed = [], [],[],[],[],[]
-
-while i < 144:
-    mempool.append(s.add_mempool())
-    txs.append(s.fork())
-    time.append(s.miningpool())
-    index.append(i)
-    i+=1
-
-for tx, tm in zip(txs, time) :
-    tx_persec.append(tx / tm)
-for tx, mp in zip(txs, mempool):
-    unconfirmed.append(tx+mp)
-df1 = pd.DataFrame({'Block_index': index,
-                   'Transaction_in_block': txs,
-                   'Time_mining': time,
-                   'Txs_Per_Sec': tx_persec,
-                   'Mempool': mempool,
-                   'Unconfirmed': unconfirmed})
-df1.to_excel("output.xlsx")    
-# Draw Plot
-
-
-
+   
 def block_trns():
     plt.figure(figsize=(16,10), dpi= 80)
     plt.plot('Block_index', 'Transaction_in_block', data=df1, color='tab:red')
@@ -98,7 +65,7 @@ def block_trns():
 
     plt.xticks(ticks=xtick_location,  rotation=0, fontsize=12, horizontalalignment='center', alpha=.7)
     plt.yticks(fontsize=12, alpha=.7)
-    plt.title("Air Passengers Traffic (1949 - 1969)", fontsize=22)
+    plt.title("Кількість транзакцій у блоці", fontsize=22)
     plt.grid(axis='both', alpha=.3)
 
     # Remove borders
@@ -108,7 +75,7 @@ def block_trns():
     plt.gca().spines["left"].set_alpha(0.3)   
     plt.show()
 
-def block_trns1():
+def block_time_mining():
     plt.figure(figsize=(16,10), dpi= 80)
     plt.plot('Block_index', 'Time_mining', data=df1, color='tab:red')
 
@@ -118,7 +85,7 @@ def block_trns1():
 
     plt.xticks(ticks=xtick_location,  rotation=0, fontsize=12, horizontalalignment='center', alpha=.7)
     plt.yticks(fontsize=12, alpha=.7)
-    plt.title("Air Passengers Traffic (1949 - 1969)", fontsize=22)
+    plt.title("Час видобутку блоку", fontsize=22)
     plt.grid(axis='both', alpha=.3)
 
     # Remove borders
@@ -128,7 +95,7 @@ def block_trns1():
     plt.gca().spines["left"].set_alpha(0.3)   
     plt.show()
 
-def block_trns2():
+def block_txs_per_sec():
     plt.figure(figsize=(16,10), dpi= 80)
     plt.plot('Block_index', 'Txs_Per_Sec', data=df1, color='tab:red')
 
@@ -138,7 +105,7 @@ def block_trns2():
 
     plt.xticks(ticks=xtick_location,  rotation=0, fontsize=12, horizontalalignment='center', alpha=.7)
     plt.yticks(fontsize=12, alpha=.7)
-    plt.title("Air Passengers Traffic (1949 - 1969)", fontsize=22)
+    plt.title("Кількість транзакцій за секунду", fontsize=22)
     plt.grid(axis='both', alpha=.3)
 
     # Remove borders
@@ -148,7 +115,7 @@ def block_trns2():
     plt.gca().spines["left"].set_alpha(0.3)   
     plt.show()
 
-def block_trns3():
+def  unconfirmed_trx():
     x = df1['Block_index']
     y1 = df1['Mempool']
     y2 = df1['Unconfirmed']
@@ -165,17 +132,48 @@ def block_trns3():
     # ax1 (left Y axis)
     ax1.set_xlabel('Year', fontsize=20)
     ax1.tick_params(axis='x', rotation=0, labelsize=12)
-    ax1.set_ylabel('Personal Savings Rate', color='tab:red', fontsize=20)
+    ax1.set_ylabel('Транзакції у мемпулі', color='tab:red', fontsize=20)
     ax1.tick_params(axis='y', rotation=0, labelcolor='tab:red' )
     ax1.grid(alpha=.4)
 
     # ax2 (right Y axis)
-    ax2.set_ylabel("# Unemployed (1000's)", color='tab:blue', fontsize=20)
+    ax2.set_ylabel("# Усі непідтвердженні транзакції", color='tab:blue', fontsize=20)
     ax2.tick_params(axis='y', labelcolor='tab:blue')
-    ax2.set_xticks(np.arange(0, len(x), 60))
-    ax2.set_xticklabels(x[::60], rotation=90, fontdict={'fontsize':10})
-    ax2.set_title("Personal Savings Rate vs Unemployed: Plotting in Secondary Y Axis", fontsize=22)
+    ax2.set_xticks(np.arange(0, len(x), 10))
+    ax2.set_xticklabels(x[::10], rotation=90, fontdict={'fontsize':10})
+    ax2.set_title('Графік усіх непідтвердженних транзакцій та кількості транзакцій у мемпулі', fontsize=22)
     fig.tight_layout()
     plt.show()
 
-block_trns3()
+
+if __name__ == '__main__':
+    i = 0
+    txs, index, time, tx_persec,mempool, unconfirmed = [],[],[],[],[],[]
+
+    s = BC_Simulation()
+    s.__init__()
+   
+    while i < 144:
+        mempool.append(s.add_mempool())
+        txs.append(s.fork())
+        time.append(s.miningpool())
+        index.append(i)
+        i+=1
+
+    for tx, tm in zip(txs, time) :
+        tx_persec.append(tx / tm)
+    for tx, mp in zip(txs, mempool):
+        unconfirmed.append(tx+mp)
+    
+    df1 = pd.DataFrame({'Block_index': index,
+                        'Transaction_in_block': txs,
+                        'Time_mining': time,
+                        'Txs_Per_Sec': tx_persec,
+                        'Mempool': mempool,
+                        'Unconfirmed': unconfirmed})
+    df1.to_excel("output.xlsx") 
+
+    unconfirmed_trx()
+    block_trns()
+    block_time_mining()
+    block_txs_per_sec()
