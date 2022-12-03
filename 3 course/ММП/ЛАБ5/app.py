@@ -30,8 +30,8 @@ def print_f2(X,Y,Z,x_min,z_min):
     ax.scatter(x_min[0], x_min[1], z_min, s=50, c='k', marker='o')
 
     ax.contour(X, Y, Z, zdir='z', offset=4096, cmap='coolwarm')
-    ax.contour(X, Y, Z, zdir='x', offset=-6, cmap='coolwarm')
-    ax.contour(X, Y, Z, zdir='y', offset=-6, cmap='coolwarm')
+    ax.contourf(X, Y, Z, zdir='x', offset=-6, cmap='coolwarm')
+    ax.contourf(X, Y, Z, zdir='y', offset=-6, cmap='coolwarm')
 
     ax.set(xlim=(-10,7), ylim=(-10,7), zlim=(0,4100), xlabel='X',ylabel='Y', zlabel='Z')
     ax.set_title('surface')
@@ -40,9 +40,13 @@ def print_f2(X,Y,Z,x_min,z_min):
 
     ax2 = plt.subplot(132)
     plt.contour(X, Y, Z, cmap='coolwarm', levels =20)
+    plt.show()
+    plt.contour(Y, X, Z, cmap='coolwarm', levels =20)
+    plt.show()
+    plt.contour(Z, Y, X, cmap='coolwarm', levels =20)
     plt.colorbar()
 
-    ax.scatter(x_min[0], x_min[1], z_min,s=50, c='k', marker='o', label = min, linewidths=2)
+    ax.scatter(x_min[0], x_min[1], z_min,s=50, c='k', marker='x', label = min, linewidths=2)
 
     plt.show()
 
