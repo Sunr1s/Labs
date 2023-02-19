@@ -90,20 +90,33 @@ def scipi_mth(x,y):
 
     plt.show()
 
+def multiple_linear(x1, x2, y):
+
+    regr = LinearRegression()
+    x1 = x1.reshape(-1, 1)
+    x2 = x2.reshape(-1, 1)
+    y = y.reshape(-1, 1)
+    # Train the model using the training sets
+    regr.fit(x1, y)
+
+    # Make predictions using the testing set
+    diabetes_y_pred = regr.predict(x1)
+
+    ax = plt.axes(projection='3d')
+    
+    plt.scatter(x1, x2, diabetes_y_pred, color="black")
+    plt.show()
 
 if __name__ == '__main__':
 
     # генерируем данные 
     n = 10
-    x = np.array([20, 40, 60, 80, 100, 120, 140, 160, 180, 200])
+    x1 = np.array([20, 40, 60, 80, 100, 120, 140, 160, 180, 200])
     y = np.array([74.04, 71.32, 81.87, 78.1, 80.39, 86.43, 85.76, 91.85, 93.08, 91.69])
+    x2 = np.array([-50.74, -56.74, -42.23, -69.85, -66.4, -78.88, -86.14, -93.14, -108.42, -118.99])
     numb = np.arange(0,n,1)
     
-    np_linereg()
-
-    scipi_mth(x,y)
-
-    model_test(x, y)
+    multiple_linear(x1, x2 ,y)
 
 
    

@@ -49,3 +49,37 @@ C:\Users\admin\Desktop\Thelara\Thelara\obj\Debug\Themes\UserBox.baml
 C:\Users\admin\Desktop\Thelara\Thelara\obj\Debug\ChiperWindow.g.cs
 C:\Users\admin\Desktop\Thelara\Thelara\obj\Debug\ChiperWindow.baml
 C:\Users\admin\Desktop\Thelara\Thelara\obj\Debug\Themes\KeyBox.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Icons\camera-video.png
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Icons\plus-square.png
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Icons\send.png
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Icons\telephone.png
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Thelara.exe.config
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Thelara.exe
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Thelara.pdb
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\ChatItem.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\ContactCard.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\KeyBox.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\UserBox.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\MessageBox.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Themes\StylishScrollbar.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\ChiperWindow.g.cs
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara_Content.g.cs
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara_MarkupCompile.cache
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara_MarkupCompile.lref
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\App.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\ChiperWindow.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.g.resources
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.Properties.Resources.resources
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.csproj.CopyComplete
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.exe
+C:\Users\admin\Desktop\Labs\2 course\ООКП\MVVM optional(2 lab)\Thelara\Thelara\obj\Debug\Thelara.pdb
