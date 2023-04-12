@@ -4,9 +4,8 @@ import os
 import re
 import locale
 import pandas as pd
-import openpyxl
 
-locale.setlocale(locale.LC_ALL, "Ukrainian")
+locale.setlocale(locale.LC_ALL, "uk_UA.UTF-8")
 
 # Create a folder for the files
 if not os.path.exists("text_files"):
