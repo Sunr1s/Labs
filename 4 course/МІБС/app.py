@@ -1,45 +1,74 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
-# Створюємо граф
-G = nx.Graph()
+# Создаем направленный граф
+G = nx.DiGraph()
 
-# Додаємо вузли для функціональних вимог
+# Добавляем узлы для функциональных требований с определенным атрибутом
 functional_requirements = [
-    'Віртуальні тури',
-    'Інтерактивні карти',
-    'Онлайн-консультації',
-    'Відгуки та оцінки',
-    'Інтеграція з соц. мережами'
+    "Virtual Tours", "Interactive Maps", "Online Consultations",
+    "Reviews and Ratings", "Social Media Integration"
 ]
+G.add_nodes_from(functional_requirements, type="Functional Requirement")
 
-# Додаємо вузли для нефункціональних вимог
+# Добавляем узлы для нефункциональных требований с определенным атрибутом
 non_functional_requirements = [
-    'Простота користування',
-    'Надійність та стабільність',
-    'Мобільна адаптація',
-    'Висока продуктивність',
-    'Безпека даних користувачів'
+    "Usability", "Reliability and Stability", "Mobile Adaptation",
+    "High Performance and Speed", "Data Security"
 ]
+G.add_nodes_from(non_functional_requirements, type="Non-functional Requirement")
 
-# Додаємо вузли до графа
-G.add_nodes_from(functional_requirements, color='blue')
-G.add_nodes_from(non_functional_requirements, color='red')
+# Определяем рёбра на основе выявленных отношений
+edges_with_labels = {
+    ("Virtual Tours", "Usability"): "impacts",
+    ("Virtual Tours", "Mobile Adaptation"): "impacts",
+    ("Virtual Tours", "High Performance and Speed"): "impacts",
+    ("Interactive Maps", "Usability"): "impacts",
+    ("Interactive Maps", "Mobile Adaptation"): "impacts",
+    ("Interactive Maps", "High Performance and Speed"): "impacts",
+    ("Online Consultations", "Reliability and Stability"): "impacts",
+    ("Online Consultations", "Data Security"): "impacts",
+    ("Online Consultations", "Mobile Adaptation"): "impacts",
+    ("Reviews and Ratings", "Data Security"): "includes",
+    ("Social Media Integration", "Usability"): "impacts",
+    ("Social Media Integration", "Data Security"): "includes",
+    ("Social Media Integration", "Mobile Adaptation"): "impacts",
+}
 
-# Додаємо зв'язки між вузлами (для прикладу, зв'язки є довільними)
-G.add_edges_from([
-    ('Віртуальні тури', 'Простота користування'),
-    ('Інтерактивні карти', 'Мобільна адаптація'),
-    ('Онлайн-консультації', 'Надійність та стабільність'),
-    ('Відгуки та оцінки', 'Безпека даних користувачів'),
-    ('Інтеграція з соц. мережами', 'Висока продуктивність'),
-])
+# Добавляем рёбра в граф
+G.add_edges_from(edges_with_labels.keys())
 
-# Візуалізуємо граф знову, переконавшись, що зв'язки відображаються правильно
-plt.figure(figsize=(10, 6))
-pos = nx.spring_layout(G, seed=42)  # Визначаємо позицію вузлів з фіксованим seed для стабільності розташування
-nx.draw_networkx_nodes(G, pos, cmap=plt.get_cmap('jet'), node_color='skyblue', node_size=2000)
+# Определяем позиции для узлов вручную, чтобы избежать наложения
+pos = {
+    "Virtual Tours": (0, 1),
+    "Interactive Maps": (1, 1),
+    "Online Consultations": (2, 1),
+    "Reviews and Ratings": (1.5, 0),
+    "Social Media Integration": (0.5, 10),
+    "Usability": (0, -1),
+    "Reliability and Stability": (1, -1),
+    "Mobile Adaptation": (2, -1),
+    "High Performance and Speed": (1.5, -2),
+    "Data Security": (0.5, -2),
+}
+
+# Рисуем граф
+plt.figure(figsize=(12, 8))
+
+# Рисуем узлы
+nx.draw_networkx_nodes(G, pos, nodelist=functional_requirements, node_color='skyblue', label='Functional Requirements')
+nx.draw_networkx_nodes(G, pos, nodelist=non_functional_requirements, node_color='lightcoral', label='Non-functional Requirements')
+
+# Рисуем рёбра
+nx.draw_networkx_edges(G, pos)
+
+# Рисуем подписи к рёбрам
+nx.draw_networkx_edge_labels(G, pos, edge_labels=edges_with_labels)
+
+# Рисуем подписи к узлам
 nx.draw_networkx_labels(G, pos)
-nx.draw_networkx_edges(G, pos, edge_color='black', width=2)  # Збільшуємо товщину ліній для кращої видимості
-plt.title('Оновлена Концептуальна Карта Вимог')
+
+# Показываем легенду и заголовок
+plt.legend()
+plt.title("Concept Map of Requirements with Explicit Relationships")
 plt.show()
