@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-connection_string = "mssql+pyodbc://CloudSA1bf0d0cc:RbCw]~3ozA7,^_8@basegs.database.windows.net:1433/Dbase?driver=ODBC+Driver+18+for+SQL+Server"
+connection_string = "mssql+pyodbc://CloudSA1bf0d0cc:RbCw]~3ozA7,^_8@basegs.database.windows.net:1433/Dbase"
 app.config['SQLALCHEMY_DATABASE_URI'] = connection_string
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
