@@ -1,0 +1,365 @@
+[
+    {
+        "id": "749fa1c17a11b710",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a69df6ea6d7ba3ac",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "start func",
+        "func": "var text = \"Привіт! Я твій гід по Україні. Ось мої команди:\\n\\n\";\ntext += \"/info - загальна інформація про країну\\n\";\ntext += \"/attractions - топ пам'яток\\n\";\ntext += \"/places - цікаві місця за категоріями\\n\";\ntext += \"/faq - часті запитання\\n\";\ntext += \"/gallery - фото та відео\\n\\n\";\ntext += \"Надішли будь-яку команду, щоб почати!\";\n\nmsg.payload.content = text;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 320,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "4aa0b14025b0c6e9",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "/info",
+        "func": "var text = \"🇺🇦 Україна - держава у Східній Європі. \\n\\n\";\ntext += \"Столиця: Київ \\n\";\ntext += \"Населення: 41 млн людей \\n\";\ntext += \"Мова: українська \\n\";\ntext += \"Валюта: гривня \\n\";\ntext += \"Площа: 603 700 км² \\n\\n\";\ntext += \"Україна межує з Білоруссю, Польщею, Словаччиною, Угорщиною, Румунією, Молдовою та Росією. На півдні омивається Чорним та Азовським морями.\\n\";\n\nmsg.payload.content = text;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 400,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "b3f134e54ae93bb5",
+        "type": "telegram sender",
+        "z": "749fa1c17a11b710",
+        "name": "senderer",
+        "bot": "8f37f3e6d86a688a",
+        "haserroroutput": true,
+        "outputs": 2,
+        "x": 940,
+        "y": 560,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "876595b9e64a3403",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/info",
+        "command": "/info",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "4aa0b14025b0c6e9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "717744de6749dbf6",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/start",
+        "command": "/start",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "a69df6ea6d7ba3ac"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6f5e2754bae8f650",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/attractions",
+        "command": "/attractions",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 500,
+        "y": 480,
+        "wires": [
+            [
+                "1412f417b50c3a57"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1412f417b50c3a57",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "/attractions",
+        "func": "var text = \"Топ пам'яток України: \\n\\n\";\n\ntext += \"1. Києво-Печерська Лавра, Київ \\n\";\ntext += \"Древній монастир, центр паломництва \\n\\n\";\n\ntext += \"2. Софійський собор, Київ \\n\";\ntext += \"Храм 11 століття, внесений до списку ЮНЕСКО \\n\\n\";\n\ntext += \"3. Площа Ринок, Львів \\n\";\ntext += \"Старовинна площа з будівлями 16-18 століть \\n\\n\";\n\ntext += \"4. Замок Паланок, Мукачево \\n\";\ntext += \"Середньовічний замок на горі \\n\\n\";\n\ntext += \"5. Херсонес Таврійський, Севастополь \\n\";\ntext += \"Античне місто, музей просто неба \\n\";\n\nmsg.payload.content = text;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 480,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "6d225669084cacca",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/places",
+        "command": "/places",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "66119eea7afacd74"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "66119eea7afacd74",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "/places",
+        "func": "msg.payload.content = 'Оберіть категорію місць:';\nmsg.payload.options = {\n  reply_markup: {\n    keyboard: [\n      [{ text: \"Ресторани\" }],\n      [{ text: \"Музеї\" }],\n      [{ text: \"Парки\" }],\n      [{ text: \"Шопінг\" }]\n    ]\n  }\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 560,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "b3a7a10740aabb16",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "Ресторани",
+        "command": "Ресторани",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 500,
+        "y": 640,
+        "wires": [
+            [
+                "062902d5d7f919a3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "062902d5d7f919a3",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "Ресторани",
+        "func": "var text = \"Найкращі ресторани України:\\n\\n\"; \ntext += \"1. Ресторан «Канапа», Київ\\n\";\ntext += \"2. «Масонська ложа», Львів\\n\";\ntext += \"3. «Мюнхгаузен», Харків\\n\"; \ntext += \"4. «Тераса», Одеса\\n\";\ntext += \"5. «Пантагрюель», Дніпро\\n\";\nmsg.payload.content = text;\nmsg.payload.options = { reply_markup: { remove_keyboard: true } }\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 640,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "b5d6c5dea2091d0b",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/faq",
+        "command": "/faq",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 720,
+        "wires": [
+            [
+                "3f0187147c0b16f7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3f0187147c0b16f7",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "/faq",
+        "func": "var faq = [\n  {\n    q: \"Чи потрібна віза в Україну?\",\n    a: \"Для громадян більшості країн потрібна віза. Але з 2017 року для багатьох країн діє безвізовий режим на термін до 90 днів, у тому числі для країн Євросоюзу.\"\n  },\n  {\n    q: \"Яка валюта в обігу?\",\n    a: \"Державна валюта - українська гривня. Можна легко обміняти долари та євро в банках та обмінниках. Кредитні картки приймають у багатьох закладах.\"\n  },\n  {\n    q: \"Якою мовою говорять?\",\n    a: \"Державна мова - українська. Також більшість населення вільно володіє російською, особливо у східній частині. Англійську розуміють у туристичних місцях.\"\n  }\n];\n\nvar item = faq[Math.floor(Math.random()*faq.length)];\nvar text = \"Випадкове запитання:\\n\\n\";\ntext += \"❓ \" + item.q + \"\\n\\n\";\ntext += item.a;\n\nmsg.payload.content = text;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 720,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "e237d5d416cdd823",
+        "type": "telegram command",
+        "z": "749fa1c17a11b710",
+        "name": "/gallery",
+        "command": "/gallery",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "8f37f3e6d86a688a",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 780,
+        "wires": [
+            [
+                "2f647410d9f905ed"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2f647410d9f905ed",
+        "type": "function",
+        "z": "749fa1c17a11b710",
+        "name": "/gallery",
+        "func": "msg.payload.content = 'https://i.postimg.cc/MGNs3RnR/Ukraine-Travel-Kiev.jpg';\nmsg.payload.type = 'photo';\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 780,
+        "wires": [
+            [
+                "b3f134e54ae93bb5"
+            ]
+        ]
+    },
+    {
+        "id": "8f37f3e6d86a688a",
+        "type": "telegram bot",
+        "botname": "Ukraine_Travel1_Bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    }
+]

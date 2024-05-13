@@ -1,0 +1,247 @@
+[
+    {
+        "id": "f90c1998b628afb1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5cfc2a8597935d4b",
+        "type": "ui_slider",
+        "z": "f90c1998b628afb1",
+        "name": "",
+        "label": "Задана температура",
+        "tooltip": "",
+        "group": "951ebc73de4db52d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "b4d365f6cd9e6f06",
+                "cf3c6b05a07a7d58",
+                "7e8abca40f5ad9ca"
+            ]
+        ]
+    },
+    {
+        "id": "b4d365f6cd9e6f06",
+        "type": "ui_gauge",
+        "z": "f90c1998b628afb1",
+        "name": "",
+        "group": "951ebc73de4db52d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "80",
+        "seg2": "90",
+        "diff": false,
+        "className": "",
+        "x": 370,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cf3c6b05a07a7d58",
+        "type": "function",
+        "z": "f90c1998b628afb1",
+        "name": "В текст",
+        "func": "msg.payload = msg.payload.toString();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "5039a57f8851f67b"
+            ]
+        ]
+    },
+    {
+        "id": "5039a57f8851f67b",
+        "type": "ui_audio",
+        "z": "f90c1998b628afb1",
+        "name": "",
+        "group": "951ebc73de4db52d",
+        "voice": "Google русский",
+        "always": "",
+        "x": 580,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "7e8abca40f5ad9ca",
+        "type": "switch",
+        "z": "f90c1998b628afb1",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "51",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "173210dbe7e541ad"
+            ],
+            [
+                "31e55f96d6a6824c"
+            ]
+        ]
+    },
+    {
+        "id": "173210dbe7e541ad",
+        "type": "change",
+        "z": "f90c1998b628afb1",
+        "name": "Norma",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "НОРМА",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "GREEN",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "7d45cf20f3b2b6e0"
+            ]
+        ]
+    },
+    {
+        "id": "31e55f96d6a6824c",
+        "type": "change",
+        "z": "f90c1998b628afb1",
+        "name": "Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "АВАРІЯ",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "RED",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "7d45cf20f3b2b6e0"
+            ]
+        ]
+    },
+    {
+        "id": "7d45cf20f3b2b6e0",
+        "type": "ui_button",
+        "z": "f90c1998b628afb1",
+        "name": "",
+        "group": "951ebc73de4db52d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.color}}",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 770,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "951ebc73de4db52d",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "d7853ee8e04f456c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d7853ee8e04f456c",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
